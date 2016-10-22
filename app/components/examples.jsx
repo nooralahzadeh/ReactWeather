@@ -3,8 +3,11 @@ var React=require('react');
 
 var Examples=(props)=>{
   return(
-    
-    <h3>Example component</h3>
+    <div>
+      <h3>Example component</h3>
+      <p>Welcome to Example page</p>
+    </div>
+
   );
 }
 module.exports=Examples;
